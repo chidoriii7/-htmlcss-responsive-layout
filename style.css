@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+} 
+
+ul, li, menu {
+    list-style: none;
+}
+
+/* testi */
+
+.blacktext {
+    color: black;
+}
+
+.white-text {
+    color: white;
+}
+
+/* Utility */
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/* widthlayout */
+
+
+
+/* header */
+
+.headerbar {
+    background-color: cornflowerblue;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1164px;
+}
+
+.container-small {
+    max-width: 984px;
+}
+
+.container, .container-small {
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.headerbutton {
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 100px;
+}
+
+.header-right {
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* colonne */
+
+.col-12 {
+    width: calc(12 * 100% / 12);
+}
+
+
+/* cardlist */
+
+.big-card {
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    border-radius:  30px;
+    text-align: center;
+}
+
+.small-card {
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.title-card {
+    color: blue;
+}
+
+.p-card {
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+
+.button-card {
+    background-color: cornflowerblue;
+    padding: 6px 10px;
+    border-radius: 100px;
+}
+
+.cardlist {
+    
+}
+
+
+@media (min-width: 768px) {
+    .d-block-md {
+        display: block;
+    }
+    .d-flex-md {
+        display: none;
+    }
+    .d-none-md {
+        display: flex;
+    }
+    .col-4-md {
+        width: calc(4 * 100% / 12);
+    }
+    .col-6-md {
+        width: calc(6 * 100% / 12);
+    }
+    .col-8-md {
+        width: calc(8 * 100% / 12);
+    }
+}
+
+@media (min-width: 992px) {
+    .d-block-lg {
+        display: block;
+    }
+    .d-flex-md {
+        display: flex;
+    }
+    .d-none-md {
+        display: none;
+    }
+    .col-4-lg {
+        width: calc(4 * 100% / 12);
+    }
+}
